@@ -77,7 +77,7 @@ tokenized_dataset = dataset.map(preprocess_function, batched=True)
 # Define training arguments with reduced logging
 training_args = TrainingArguments(
     output_dir="./results",  # Output directory
-    num_train_epochs=1,  # Number of training epochs, set to 1 for quick testing
+    num_train_epochs=20,  # Number of training epochs, set to 1 for quick testing
     per_device_train_batch_size=4,  # Training batch size
     per_device_eval_batch_size=4,  # Evaluation batch size
     warmup_steps=10,  # Warmup steps
