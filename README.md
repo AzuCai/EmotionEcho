@@ -28,7 +28,7 @@ EmotionEcho is an innovative AI project that generates personalized, emotion-dri
 ### Installation
 1. **Clone the Repository**:
   ```bash
-  git clone https://github.com/yourusername/EmotionEcho.git
+  git clone https://github.com/AzuCai/EmotionEcho.git
   cd EmotionEcho
   ```
 2. **Create Conda Environment (optional but recommended)**:
